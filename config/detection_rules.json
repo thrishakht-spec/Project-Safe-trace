@@ -1,0 +1,13 @@
+{
+  "description": "Default local detection categories; these are heuristics, not a complete secret taxonomy.",
+  "categories": [
+    "API_KEY",
+    "AUTH_TOKEN",
+    "ASSIGNMENT_SECRET",
+    "DB_CREDENTIAL",
+    "EMAIL",
+    "IP_ADDRESS",
+    "USERNAME",
+    "HIGH_ENTROPY"
+  ]
+}

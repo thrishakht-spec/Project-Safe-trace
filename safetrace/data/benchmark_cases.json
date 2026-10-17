@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "SYN-001",
+    "raw_log": "ERROR AuthenticationError: invalid credential for dev@example.test password=canary_Aa91Zx77Qw33Mn55",
+    "root_cause": "authentication",
+    "keywords": [
+      "AuthenticationError",
+      "HTTP 401"
+    ],
+    "fix": "Check credential configuration and refresh the test credential.",
+    "source_url": "",
+    "provenance": "Synthetic fixture; not a public incident.",
+    "canaries": [
+      "canary_Aa91Zx77Qw33Mn55"
+    ]
+  },
+  {
+    "case_id": "SYN-002",
+    "raw_log": "ConnectionRefusedError: connection refused at 127.0.0.1:5432 token=canary_Bb82Yy66Rt44Jj11",
+    "root_cause": "connection",
+    "keywords": [
+      "ConnectionRefusedError",
+      "5432"
+    ],
+    "fix": "Confirm the local database service and port are available.",
+    "source_url": "",
+    "provenance": "Synthetic fixture; not a public incident.",
+    "canaries": [
+      "canary_Bb82Yy66Rt44Jj11"
+    ]
+  },
+  {
+    "case_id": "SYN-003",
+    "raw_log": "FileNotFoundError: no such file or directory: /tmp/input.csv api_key=canary_Cc73Xx55Ss33Hh22",
+    "root_cause": "missing_file",
+    "keywords": [
+      "FileNotFoundError",
+      "input.csv"
+    ],
+    "fix": "Check the configured file path and deployment mount.",
+    "source_url": "",
+    "provenance": "Synthetic fixture; not a public incident.",
+    "canaries": [
+      "canary_Cc73Xx55Ss33Hh22"
+    ]
+  },
+  {
+    "case_id": "SYN-004",
+    "raw_log": "KeyError: missing key 'customer_id' secret=canary_Dd64Ww44Aa22Gg33",
+    "root_cause": "missing_key",
+    "keywords": [
+      "KeyError",
+      "customer_id"
+    ],
+    "fix": "Validate the input schema and handle absent keys.",
+    "source_url": "",
+    "provenance": "Synthetic fixture; not a public incident.",
+    "canaries": [
+      "canary_Dd64Ww44Aa22Gg33"
+    ]
+  },
+  {
+    "case_id": "SYN-005",
+    "raw_log": "ZeroDivisionError: division by zero in calculate_total password=canary_Ee55Vv33Bb11Ff44",
+    "root_cause": "division_by_zero",
+    "keywords": [
+      "ZeroDivisionError",
+      "calculate_total"
+    ],
+    "fix": "Guard against a zero denominator before division.",
+    "source_url": "",
+    "provenance": "Synthetic fixture; not a public incident.",
+    "canaries": [
+      "canary_Ee55Vv33Bb11Ff44"
+    ]
+  },
+  {
+    "case_id": "SYN-006",
+    "raw_log": "ModuleNotFoundError: No module named 'yaml' client_secret=canary_Ff46Uu22Cc11Dd55",
+    "root_cause": "missing_module",
+    "keywords": [
+      "ModuleNotFoundError",
+      "yaml"
+    ],
+    "fix": "Install the required package in the active environment.",
+    "source_url": "",
+    "provenance": "Synthetic fixture; not a public incident.",
+    "canaries": [
+      "canary_Ff46Uu22Cc11Dd55"
+    ]
+  }
+]

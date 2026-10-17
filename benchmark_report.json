@@ -1,0 +1,36 @@
+{
+  "sample_size": 6,
+  "evaluation": "Deterministic category-rule scoring on synthetic fixtures; not human/LLM diagnosis validation.",
+  "rows": [
+    {
+      "Method": "Raw logs",
+      "Privacy score (%)": 0.0,
+      "Leak rate (%)": 100.0,
+      "Diagnosis accuracy (%)": 100.0,
+      "Correct cases": 6,
+      "Sample size": 6,
+      "Canaries leaked": 6,
+      "Canaries injected": 6
+    },
+    {
+      "Method": "Naive redaction",
+      "Privacy score (%)": 100.0,
+      "Leak rate (%)": 0.0,
+      "Diagnosis accuracy (%)": 100.0,
+      "Correct cases": 6,
+      "Sample size": 6,
+      "Canaries leaked": 0,
+      "Canaries injected": 6
+    },
+    {
+      "Method": "SafeTrace",
+      "Privacy score (%)": 100.0,
+      "Leak rate (%)": 0.0,
+      "Diagnosis accuracy (%)": 100.0,
+      "Correct cases": 6,
+      "Sample size": 6,
+      "Canaries leaked": 0,
+      "Canaries injected": 6
+    }
+  ]
+}
